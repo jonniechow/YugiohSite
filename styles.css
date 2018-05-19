@@ -1,0 +1,131 @@
+.wrapper{
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 5px solid #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+body {
+    color: #000000;
+    background-color: #062F4F;
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+    
+}
+header {
+    height: 260px;
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 210px;
+    margin: 0px;
+}
+nav, footer {
+    clear: both;
+    color: #b82601;
+    background-color: #000000;
+    height: 30px;
+    padding: 10px;
+    font-family: "Comic Sans MS";
+}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;
+    
+}
+nav li a {
+    color: #ffffff;
+}
+.year {
+    color: #ffffff;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color:#b82601;
+}
+nav li a:hover, nav li a.current {
+    color: #b82601;
+}
+section.boosterboxes {
+    float: left;
+    width: 659px;
+    border-right: 2px solid black;
+    
+}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    border-bottom: 2px solid #eeeeee;
+}
+hgroup {
+    margin-top: 40px;
+}
+figure {
+    float: left;
+    width: 290px;
+    height: 290px;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 290px;
+}
+aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+    
+}
+aside section a {
+    display: block;
+    padding: 10px;
+    color: black;
+    border-bottom: 1px solid #eeeeee;
+}
+aside section a:hover {
+    color: #b82601;
+}
+h1, h2, h3 {
+    font-weight:normal;
+}
+h2{
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #b82601;
+}
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #b82601;
+    
+}
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
