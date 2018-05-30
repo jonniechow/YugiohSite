@@ -1,0 +1,11 @@
+img {
+    width: 250px;
+    height: 290px;
+
+}
+section.tins {
+    float: left;
+    width: 659px;
+    border-right: 2px solid black;
+    
+}
